@@ -17,13 +17,13 @@ struct FilledButton: View {
     
     private var fillColor: Color
     private var textColor: Color
-    private var titleTopPadding: CGFloat = 5
+    private var titleTopPadding: CGFloat = 7
     
     init(
         title: String,
         fillColor: Color = .blue,
         textColor: Color = .white,
-        titleTopPadding: CGFloat = 5,
+        titleTopPadding: CGFloat = 7,
         action: @escaping () -> Void
     ) {
         self.action = action
